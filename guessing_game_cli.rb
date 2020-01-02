@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  puts "/Guess a number between 1 and 6"
+  puts "Guess a number between 1 and 6"
   cpu_rand = 1+rand(6)
   user_input = gets.chomp.to_s
   
