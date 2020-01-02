@@ -4,5 +4,9 @@ def run_guessing_game
   user_input = gets.chomp
   
   if user_input = cpu_rand 
+    puts "You guessed the correct number!"
     
+    elsif user_input != cpu_rand 
+    puts ""
+  end
 end
