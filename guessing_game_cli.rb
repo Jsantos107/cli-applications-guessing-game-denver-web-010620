@@ -7,10 +7,10 @@ def run_guessing_game
   if user_input == cpu_rand 
     puts "You guessed the correct number!"
     
-    elsif user_input !== cpu_rand 
+    elsif user_input != cpu_rand 
     puts "Sorry! The computer guessed #{number}"
     
-    elsif "exit"
+    elsif user_input == "exit"
       puts "Goodbye!"
       
     else 
