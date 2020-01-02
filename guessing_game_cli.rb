@@ -2,6 +2,7 @@
 def run_guessing_game
   cpu_rand = rand(1..6)
   user_input = gets.chomp
+  cpu_rand.to_s
   
   if user_input = cpu_rand 
     puts "You guessed the correct number!"
