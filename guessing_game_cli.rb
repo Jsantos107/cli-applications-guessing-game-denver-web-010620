@@ -10,10 +10,8 @@ def run_guessing_game
     elsif user_input.to_i != cpu_rand 
     return "Sorry! The computer guessed #{cpu_rand}"
     
-    elsif user_input == "exit"
+    else user_input == "exit"
       puts "Goodbye!"
-      
-    else 
-      puts "Invalid input"
+    
   end
 end
