@@ -1,5 +1,6 @@
 # Code your solution here!
 def run_guessing_game
+  puts
   cpu_rand = rand(1..6)
   user_input = gets.chomp
   cpu_rand.to_s
